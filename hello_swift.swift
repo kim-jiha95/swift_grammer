@@ -12,7 +12,7 @@ import UIKit
 let isHuman = false
 
 var isSingle = true
-isSingle.toggle()
+ isSingle.toggle()
 
 //enum
 // 요일을 한번 enum으로 만들어 보겠습니다.
@@ -40,7 +40,7 @@ let age = 10
 
 // if 문의 조건절에는 boolean 타입을 사용합니다.
 // 예) age > 20
-if age > 20 {
+ if age > 20 {
     print("성인 입니다")
 } else {
     print("미성년 입니다")
@@ -78,7 +78,7 @@ case .rain:
 }
 
 //for문에서 단순 반복할 때 ..사용
-print("전방에 다짐 10번 발사~~!")
+ print("전방에 다짐 10번 발사~~!")
 
 for _ in 0..<10 {
     print("나는 iOS 개발자다!")
